@@ -1,0 +1,83 @@
+.vision-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.vision-content {
+    padding: 4rem 2rem;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+}
+
+.vision-label {
+    font-size: 0.9rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.vision-heading {
+    font-size: clamp(2rem, 5vw, 4rem);
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+}
+
+.vision-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+}
+
+.vision-text strong {
+    color: var(--text-primary);
+}
+
+.vision-goals {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.goal-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.goal-number {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-purple);
+    font-family: var(--font-display);
+}
+
+.goal-item h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+    .vision-heading {
+        font-size: 2.5rem;
+    }
+
+    .vision-goals {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .vision-content {
+        padding: 2rem 1rem;
+    }
+}
