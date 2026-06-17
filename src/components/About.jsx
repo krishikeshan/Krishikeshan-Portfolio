@@ -36,25 +36,19 @@ const About = () => {
                     transition={{ duration: 0.6, delay: 0.2 }}
                 >
                     <p className="highlight-text">
-                        I am not just writing code; I am engineering digital evolution.
+                        Motivated individual with strong analytical and communication skills, eager to begin a career in the IT industry as a Software Engineer.
                     </p>
                     <p>
-                        Based in Kandy, Sri Lanka, I am a 3rd-year Computer Science student with a deep focus on
-                        <span className="text-white"> Artificial Intelligence</span> and <span className="text-white">Software Development</span>.
+                        Proficient in data analysis, problem-solving, and handling complex information with integrity. A quick learner with a keen interest in machine learning, artificial intelligence, and web development.
                     </p>
                     <p>
-                        My journey is defined by a relentless curiosity—from automating smart agriculture systems to training
-                        deep learning models for sign language recognition. I view technology as a tool to solve real-world problems.
-                    </p>
-                    <p>
-                        I operate with an entrepreneurial mindset. Whether it's a medical chatbot or a real-time health monitoring system,
-                        my goal is always the same: <span className="neon-text">Build meaningful technology.</span>
+                        Committed to delivering efficient solutions and contributing to the success of a forward-thinking tech organization.
                     </p>
 
                     <div className="about-stats">
                         <div className="stat-item">
-                            <span className="stat-value">CS</span>
-                            <span className="stat-label">Major</span>
+                            <span className="stat-value">BSc</span>
+                            <span className="stat-label">Computer Science</span>
                         </div>
                         <div className="stat-item">
                             <span className="stat-value">AI</span>

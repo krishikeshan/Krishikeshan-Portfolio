@@ -6,29 +6,29 @@ import './Skills.css';
 
 const skillCategories = [
     {
-        title: "Artificial Intelligence",
+        title: "Web & Frameworks",
         skills: [
-            { name: "Python", icon: <FaPython />, color: "#3776AB" },
-            { name: "TensorFlow", icon: <SiTensorflow />, color: "#FF6F00" },
-            { name: "PyTorch", icon: <SiPytorch />, color: "#EE4C2C" },
-            { name: "OpenCV", icon: <SiOpencv />, color: "#5C3EE8" }
+            { name: "MERN Stack", icon: <FaDatabase />, color: "#4DB33D" },
+            { name: "Next.js", icon: <FaReact />, color: "#000000" },
+            { name: "TypeScript", icon: <FaReact />, color: "#3178C6" },
+            { name: "JavaScript", icon: null, color: "#F0DB4F" },
+            { name: "HTML/CSS", icon: null, color: "#E34F26" }
         ]
     },
     {
-        title: "Web Development",
+        title: "Machine Learning",
         skills: [
-            { name: "React", icon: <FaReact />, color: "#61DAFB" },
-            { name: "PHP", icon: <FaPhp />, color: "#777BB4" },
-            { name: "Firebase", icon: <SiFirebase />, color: "#FFCA28" },
-            { name: "SQL", icon: <FaDatabase />, color: "#4479A1" }
+            { name: "ML Models", icon: <SiTensorflow />, color: "#FF6F00" },
+            { name: "Python", icon: <FaPython />, color: "#3776AB" }
         ]
     },
     {
-        title: "IoT & Embedded",
+        title: "Languages & Tools",
         skills: [
-            { name: "ESP32", icon: <FaMicrochip />, color: "#E7352C" }, // Generic chip for ESP
-            { name: "Arduino", icon: <SiArduino />, color: "#00979D" },
-            { name: "C++", icon: <SiCplusplus />, color: "#00599C" }
+            { name: "C++", icon: <SiCplusplus />, color: "#00599C" },
+            { name: "C", icon: null, color: "#A8B9CC" },
+            { name: "Java", icon: null, color: "#007396" },
+            { name: "PHP", icon: <FaPhp />, color: "#777BB4" }
         ]
     }
 ];

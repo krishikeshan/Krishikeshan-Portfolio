@@ -1,0 +1,4 @@
+.education-list { display:flex; flex-direction:column; gap:1rem; }
+.education-item { padding:1rem; }
+.edu-degree { margin:0; }
+.edu-school { color:var(--text-secondary); margin-top:0.4rem; }

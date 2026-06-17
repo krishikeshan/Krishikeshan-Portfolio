@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import './Hero.css';
 
@@ -35,7 +36,7 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 0.6 }}
                 >
                     <h3 className="hero-title gradient-text">
-                        AI Technologist <span className="separator">/</span> Entrepreneur <span className="separator">/</span> Builder
+                        Undergraduate — BSc in Computer Science with Artificial Intelligence (NIBM, 2023–Present)
                     </h3>
                 </motion.div>
 
@@ -45,8 +46,7 @@ const Hero = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 1 }}
                 >
-                    Forging the future with Artificial Intelligence and Embedded Systems.
-                    <br />Currently building real-world solutions in Kandy, Sri Lanka.
+                    Motivated, analytical, and eager to begin a career as a Software Engineer — focused on machine learning, web development, and delivering efficient solutions.
                 </motion.p>
 
                 <motion.div

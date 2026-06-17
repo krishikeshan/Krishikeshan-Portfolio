@@ -5,34 +5,25 @@ import './Projects.css';
 
 const projects = [
     {
-        title: "Real-time Heart Rate & SPO2 Monitoring",
-        description: "IoT-based health system utilizing ESP32 to transmit vital signs to Firebase in real-time, accessible via a custom web dashboard.",
-        tags: ["ESP32", "Firebase", "React", "IoT"],
-        link: "https://github.com/krishikeshan"
+        title: "Health Assessment System",
+        description: "Web-based health monitoring and analysis platform for students. Built with ReactJS and Node.js to collect and evaluate key health parameters, providing administrators insight and reporting.",
+        tags: ["React", "Node.js", "Firebase", "Health"],
+        repo: "",
+        demo: ""
     },
     {
-        title: "Sign Language Recognition App",
-        description: "Deep learning application capable of recognizing 36 distinct sign language classes with high accuracy using a custom CNN model.",
-        tags: ["Deep Learning", "Python", "TensorFlow", "OpenCV"],
-        link: "https://github.com/krishikeshan"
+        title: "Card Managing System",
+        description: "Card payment management dashboard for tracking physical and virtual cards with clear status badges and streamlined creation and management workflows.",
+        tags: ["Dashboard", "Payments", "React", "UI"],
+        repo: "",
+        demo: ""
     },
     {
-        title: "AI-Powered Automated Pen Plotter",
-        description: "A precision robotics project that converts digital vector graphics into physical drawings using custom path-planning algorithms.",
-        tags: ["Robotics", "Arduino", "C++", "Algorithm Design"],
-        link: "https://github.com/krishikeshan"
-    },
-    {
-        title: "Smart Agriculture Automation",
-        description: "Poly-tunnel environment control system that regulates temperature and humidity automatically for optimal crop growth.",
-        tags: ["Automation", "Sensors", "IoT", "Embedded Systems"],
-        link: "https://github.com/krishikeshan"
-    },
-    {
-        title: "Medical Diagnostic Chatbot",
-        description: "Rule-based expert system designed to assist in preliminary medical diagnosis based on symptom analysis.",
-        tags: ["AI", "NLP", "Expert Systems", "Web"],
-        link: "https://github.com/krishikeshan"
+        title: "Personal Portfolio",
+        description: "Responsive personal portfolio website showcasing projects, skills, case studies, and contact information. Optimized for accessibility and performance.",
+        tags: ["React", "Accessibility", "SEO", "Design"],
+        repo: "",
+        demo: ""
     }
 ];
 
@@ -70,8 +61,17 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="project-links">
-                            <a href={project.link} className="icon-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo"><FaGithub /></a>
-                            <a href={project.link} className="icon-link" target="_blank" rel="noopener noreferrer" aria-label="Live Demo"><FaExternalLinkAlt /></a>
+                            {project.repo ? (
+                                <a href={project.repo} className="icon-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo"><FaGithub /></a>
+                            ) : (
+                                <span className="icon-link disabled" aria-hidden="true"><FaGithub /></span>
+                            )}
+
+                            {project.demo ? (
+                                <a href={project.demo} className="icon-link" target="_blank" rel="noopener noreferrer" aria-label="Live Demo"><FaExternalLinkAlt /></a>
+                            ) : (
+                                <span className="icon-link disabled" aria-hidden="true"><FaExternalLinkAlt /></span>
+                            )}
                         </div>
                     </motion.div>
                 ))}

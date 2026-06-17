@@ -1,0 +1,7 @@
+.experience-list { display:flex; flex-direction:column; gap:1rem; }
+.experience-item { padding:1rem; }
+.exp-header { display:flex; justify-content:space-between; align-items:center; }
+.exp-role { margin:0; }
+.exp-period { font-size:0.85rem; color:var(--text-secondary); }
+.exp-org { font-weight:600; margin-top:0.5rem; }
+.exp-details { margin-top:0.5rem; color:var(--text-secondary); }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -36,9 +36,13 @@ const Contact = () => {
                     <a href="mailto:krishikeshanragunathan@gmail.com" className="email-button">
                         <FaEnvelope /> Send Transmission
                     </a>
+                    <a href="tel:+94769419395" className="email-button">
+                        <FaPhone /> +94 76 9419395
+                    </a>
                     <div className="social-links">
-                        <a href="https://linkedin.com/in/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
-                        <a href="https://github.com/krishikeshan" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaGithub /></a>
+                        {/* LinkedIn and GitHub placeholders - add URLs to enable */}
+                        <span className="social-icon" aria-hidden="true"><FaLinkedin /></span>
+                        <span className="social-icon" aria-hidden="true"><FaGithub /></span>
                     </div>
                 </div>
 
